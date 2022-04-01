@@ -3,13 +3,10 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return render(request, 'main/index.html')
+    return render(request, 'main/Главная.html')
 
 def categories(request):
-    return render(request, 'main/categories.html')
+    return render(request, 'main/Категории.html')
 
 def create(request):
-    return render(request, 'main/create.html')
-
-def new(request):
-    return render(request, 'main/new.html')
+    return render(request, 'main/Сделать-заказ.html')

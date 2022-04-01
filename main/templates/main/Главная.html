@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+{% load static %}
+
+{{ '<' }}{{ '!DOCTYPE html>' }}
 <html style="font-size: 16px;">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +9,10 @@
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
     <title>Главная</title>
-    <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="Главная.css" media="screen">
-    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <link rel="stylesheet" href="{% static 'main/css/nicepage.css' %}" media="screen">
+<link rel="stylesheet" href=" {% static 'main/css/Главная.css' %}" media="screen">
+    <script class="u-script" type="text/javascript" src="{% static 'main/js/jquery.js' %}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{% static 'main/js/nicepage.js' %}" defer=""></script>
     <meta name="generator" content="Nicepage 4.7.1, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     
@@ -24,11 +26,11 @@
     <meta property="og:title" content="Главная">
     <meta property="og:type" content="website">
   </head>
-  <body data-home-page="Главная.html" data-home-page-title="Главная" class="u-body u-xl-mode">
+  <body class="u-body u-xl-mode">
     <section class="u-clearfix u-grey-90 u-section-1" id="carousel_44aa">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <a href="Сделать-заказ.html" data-page-id="2159919275" class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1">Оставить заявку</a>
-        <a href="Категории.html" data-page-id="38429847" class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2">категории</a>
+        <a href="{% url 'create' %}" data-page-id="2159919275" class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1">Оставить заявку</a>
+        <a href="{% url 'categories' %}" data-page-id="38429847" class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2">категории</a>
         <div class="u-clearfix u-expanded-width u-gutter-12 u-layout-wrap u-layout-wrap-1">
           <div class="u-layout">
             <div class="u-layout-row">
