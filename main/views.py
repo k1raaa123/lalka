@@ -5,8 +5,10 @@ from django.http import HttpResponse
 def index(request):
     return render(request, 'main/Главная.html')
 
+
 def categories(request):
     return render(request, 'main/Категории.html')
 
+
 def create(request):
-    return render(request, 'main/Сделать-заказ.html')
+    return render(request, 'main/Заказ.html')
