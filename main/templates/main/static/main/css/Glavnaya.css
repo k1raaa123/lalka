@@ -1,3 +1,5 @@
+{% load static %}
+
  .u-section-1 {
   background-image: none;
 }
