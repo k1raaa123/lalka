@@ -48,19 +48,18 @@
 
 .u-section-1 .u-image-1 {
   min-height: 314px;
-  background-image: url("images/photo1648487239.jpeg");
-  background-position: 50% 50%;
+  background-image: url("");
 }
 
 .u-section-1 .u-image-2 {
   min-height: 268px;
-  background-image: url("images/photo16484872391.jpeg");
+  background-image: url("images/hallway.jpeg");
   background-position: 50% 50%;
 }
 
 .u-section-1 .u-image-3 {
   min-height: 582px;
-  background-image: url("images/photo1648487420.jpeg");
+  background-image: url("images/bedroom.jpg");
   background-position: 100% 50%;
   background-size: auto 105%;
 }
