@@ -48,12 +48,12 @@
 
 .u-section-1 .u-image-1 {
   min-height: 314px;
-  background-image: url("");
+  background-image: url("images/office.jpg");
 }
 
 .u-section-1 .u-image-2 {
   min-height: 268px;
-  background-image: url("images/hallway.jpeg");
+  background-image: url("images/hallway.jpg");
   background-position: 50% 50%;
 }
 
