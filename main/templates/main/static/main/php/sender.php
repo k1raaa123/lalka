@@ -1,11 +1,10 @@
 <?php
     $name = $_POST['name'];
-    $surname = $_POST['surname'];
 	$phone = $_POST['phone'];
     $email = $_POST['email'];
     $text = $_POST['text'];
 
-	$to = "denis.koblya@gmail.com"; 
+	$to = "zivilsk0573@mail.ru";
 	$date = date ("d.m.Y"); 
 	$time = date ("h:i");
 	$from = $email;
@@ -13,8 +12,7 @@
 
 	
 	$msg="
-    Имя: $name /n
-    Фамилия: $surname /n
+    ФИО: $name /n
     Телефон: $phone /n
     Почта: $email /n
     Текст: $text"; 	

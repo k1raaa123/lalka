@@ -10,4 +10,4 @@ def categories(request):
 
 
 def create(request):
-    return render(request, 'main/Zakaz.html')
+    return render(request, 'main/form.html')
