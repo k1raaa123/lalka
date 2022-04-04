@@ -4,7 +4,7 @@
     $email = $_POST['email'];
     $text = $_POST['text'];
 
-	$to = "zivilsk0573@mail.ru";
+	$to = "zivilsk@mail.ru";
 	$date = date ("d.m.Y"); 
 	$time = date ("h:i");
 	$from = $email;
@@ -20,4 +20,4 @@
 
 ?>
 
-<p>Привет, форма отправлена</p>
+<p>Ваша заявка отправлена! Ожидайте обратной связи.</p>
